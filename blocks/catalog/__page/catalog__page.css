@@ -1,0 +1,22 @@
+.catalog__page {
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FFBA00;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.catalog__page:active {
+    background: #FFBA00;
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .catalog__page {
+        width: 45px;
+        height: 45px;
+    }
+}

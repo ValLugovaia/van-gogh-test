@@ -1,0 +1,24 @@
+.catalog__card-button {
+    width: 258px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    background: #FFBA00;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #273170;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.catalog__card-button:hover {
+    background: #273170;
+    color: #FFBA00;
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .catalog__card-button {
+        width: 250px;
+    }
+}

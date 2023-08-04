@@ -1,0 +1,39 @@
+.catalog__type-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+ 
+.catalog__type-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.catalog__type-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: #CBD4EC;
+    border-radius: 2px;
+    margin-right: 9px;
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .catalog__type-checkbox+label::before {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+}
+
+.catalog__type-checkbox:checked+label::before {
+    background: url(./images/checked.svg) center center no-repeat #CBD4EC;
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .catalog__type-checkbox:checked+label::before {
+        background: url(./images/checked-mobile.svg) center center no-repeat #CBD4EC;
+    }
+}

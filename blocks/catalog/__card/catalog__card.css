@@ -1,0 +1,17 @@
+.catalog__card {
+    width: 338px;
+    height: 419px;
+    box-shadow: 0px 0px 13px 0px #4555B933;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .catalog__card {
+        width: 310px;
+        height: 402px;
+    }
+}
+
+.catalog__card:hover {
+    box-shadow: 0px 0px 20px 0px #4555B966;
+}

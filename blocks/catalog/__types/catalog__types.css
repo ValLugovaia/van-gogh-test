@@ -1,0 +1,11 @@
+.catalog__types {
+    display: flex;
+    gap: 35px;
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .catalog__types {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,10 @@
+.catalog__type {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .catalog__type {
+        align-items: flex-start;
+    }
+}

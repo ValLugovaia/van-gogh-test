@@ -1,0 +1,12 @@
+.catalog__card-content {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .catalog__card-content {
+        margin: 30px;
+    }
+}

@@ -1,0 +1,16 @@
+.catalog__title {
+    font-family: 'Helvetica';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #272C4C;
+    margin: 0px auto 23px 0px;
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .catalog__title {
+        font-size: 22px;
+        line-height: 38px;
+        margin: 0px auto 17px 0px;
+    }
+}

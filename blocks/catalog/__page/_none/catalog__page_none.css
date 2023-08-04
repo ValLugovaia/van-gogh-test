@@ -1,0 +1,5 @@
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .catalog__page_none {
+        display: none;
+    }
+}

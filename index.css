@@ -1,0 +1,23 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/font.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/content/content.css);
+@import url(./blocks/catalog/catalog.css);
+@import url(./blocks/catalog/__title/catalog__title.css);
+@import url(./blocks/catalog/__types/catalog__types.css);
+@import url(./blocks/catalog/__type/catalog__type.css);
+@import url(./blocks/catalog/__type-checkbox/catalog__type-checkbox.css);
+@import url(./blocks/catalog/__type-label/catalog__type-label.css);
+@import url(./blocks/catalog/__cards/catalog__cards.css);
+@import url(./blocks/catalog/__card/catalog__card.css);
+@import url(./blocks/catalog/__card-content/catalog__card-content.css);
+@import url(./blocks/catalog/__card-title/catalog__card-title.css);
+@import url(./blocks/catalog/__card-description/catalog__card-description.css);
+@import url(./blocks/catalog/__card-button/catalog__card-button.css);
+@import url(./blocks/catalog/__pages/catalog__pages.css);
+@import url(./blocks/catalog/__page/catalog__page.css);
+@import url(./blocks/catalog/__page/_ellipsis/catalog__page_ellipsis.css);
+@import url(./blocks/catalog/__page/_next/catalog__page_next.css);
+@import url(./blocks/catalog/__page/_none/catalog__page_none.css);
+@import url(./blocks/catalog/__page-number/catalog__page-number.css);
+
